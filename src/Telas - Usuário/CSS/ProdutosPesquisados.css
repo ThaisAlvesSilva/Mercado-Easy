@@ -1,0 +1,86 @@
+#logo{
+    width: 130px;
+}
+
+svg{
+    color: white;
+}
+
+.texto{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.promocoes img{
+    width: 250px;
+    height: 250px;
+    margin: 15px 5px 0px 0px;
+    border: solid 0.8px #DC3545;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.promocoes p{
+    font-size: 17px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    height: 126px;
+}
+
+
+.promocoes svg{
+    margin-left: 208px;
+    margin-top: -45px;
+}
+#txt{
+    height: 23px;
+    width: 178px;
+    margin-left: -7.5px;
+}
+#inf{
+    margin-top: 80px;
+    margin-right: 25.3px;
+}
+.divInfos{
+    background-color: #DC3545;
+    width: 250px;
+    height:205px;
+}
+.divInfos button{
+    margin-top: -90px;
+    margin-left: 26.7px;
+    font-size: 17px;
+}
+.modal-content{
+    height: 175px;
+}
+.row{
+    margin-bottom: 7px;
+}
+.modal-content .close svg{
+    margin-top: 95px;
+    margin-right: -230px;
+    color: black;
+}
+
+#txtBusca{
+    width:60%;
+}
+#inf h5{
+    margin-left: 65px;
+    margin-top: -7px;
+    margin-bottom: -23px;
+}
+
+
+@media screen and (max-width:500px){
+    .header{
+        width:1000px;
+    }
+
+    .produto{
+        padding-left: 150px
+    }
+    .texto{
+        width:800px;
+    }
+}

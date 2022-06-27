@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<script src="../JavaScript/cadastroPessoa.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="../CSS/Cadastro_Pessoa.css">
+
+  
+
+    <title>Cadastro Pessoa Física</title>
+</head>
+
+<header class="">
+    <div class= "row-cabeçalho">
+    <nav class="navbar navbar-expand-lg">
+         <div class="col-12 col-sm-1 col-xs-12 col-md-1 col-lg-1">
+            <a href="../../Gerais/HTML/Home.html">
+                <img src="../Imagens/logo_Vermelha.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-6 col-sm-4 col-xs-12 col-md-6 col-lg-10">
+            <div class="navbar-nav justify-content-center">
+                <h1 class="font-weight-bold">Cadastro Pessoa Física</h1>
+
+            </div>
+
+
+        </div>
+    
+    </nav>
+  </div> 
+        
+</header>
+
+<!--Register-->
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                <form id="envioCadastro" onsubmit="return false" role="form">
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input required type="text" name="Primeiro Nome" id="PrimeiroNome" class="form-control input-lg" placeholder="Primeiro Nome" tabindex="1">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input required type="text" name="Sobrenome" id="Sobrenome" class="form-control input-lg" placeholder="Sobrenome" tabindex="2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input required type="text" name="Nome de Usuário" id="NomeDeUsuario" class="form-control input-lg" placeholder="Nome de Usuário" tabindex="3">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <input required type="text" name="Cep" id="Cep" class="form-control input-lg" placeholder="Cep" tabindex="1"  maxlength="8" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-9">
+                            <div class="form-group">
+                                <input required type="text" name="rua" id="Rua" class="form-control input-lg" placeholder="Rua" tabindex="1">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <input required type="number" name="Nº" id="Numero" class="form-control input-lg" placeholder="Nº" tabindex="1" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                            </div>
+                        </div>
+
+                    </div>
+
+                          
+                     <div class="form-group">
+                        <input required type="text" name="Bairro" id="Bairro" class="form-control input-lg" placeholder="Bairro" tabindex="5">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-9">
+                            <div class="form-group">
+                                <input required type="text" name="cidade" id="Cidade" class="form-control input-lg" placeholder="Cidade" tabindex="1">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <!-- <input required type="text" name="UF" id="UF" class="form-control input-lg" placeholder="UF" tabindex="1"> -->
+                                <select required class="form-control input-lg" id="uf"  tabindex="1">
+                                    <option value="">UF</option>
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AM">AM</option>
+                                    <option value="AP">AP</option>
+                                    <option value="BA">BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ES">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MG">MG</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MT">MT</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="PR">PR</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RS">RS</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SE">SE</option>
+                                    <option value="SP">SP</option>
+                                    <option value="TO">TO</option>
+                                </select>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <input required type="email" name="email" id="Email" class="form-control input-lg" placeholder="Email" tabindex="5">
+                    </div>
+
+                    <div class="form-group">
+                        <input required type="tell" name="Telefone" id="Telefone" class="form-control input-lg" placeholder="Telefone" tabindex="5" maxlength="11" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input required type="password" name="Password" id="Senha" class="form-control input-lg" placeholder="Senha" tabindex="6">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input required type="password" name="ConfirmaSenha" id="ConfirmaSenha" class="form-control input-lg" placeholder="Confirme sua Senha" tabindex="7">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-9 col-md-12" style="font-size: 12px;">
+                             Ao clicar em <strong class="label label-primary">Cadastrar</strong>, você concorda com os <a href="#" data-toggle="modal" data-target="#t_and_c_m">Termos e Condições</a> estabelecidos por este site, incluindo nosso Uso de Cookies.
+                        </div>
+                    </div>
+                    
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-12"><input onclick="enviarDados()" type="submit" style="font-size: 18px;" value="Cadastrar" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+                    </div>
+                    <div class="modal-body">
+                        <b>Avisamos previamente que ao acessar esse site você concorda tacitamente com as disposições contidas nesse documento, por isso muito atenção ao ler cada uma das cláusulas e obrigações dispostas a seguir:</b>
+                        <br> <b>1.Do Objeto</b>
+                           <p>Essa plataforma tem como finalidade informar os consumidores sobre preços de produtos de diversos supermercados.</p>
+                       <b>2. Da reserva de produtos</b>
+                       <p>2.1 O nosso website não trabalha com nenhuma possibilidade de reservar qualquer um dos produtos ofertados em nossa plataforma.</p>
+                       <p>2.2 O fato de o produto estar disponível não é tido como uma reserva ou garantia de compra e não impossibilita que outras pessoas possam adquirir o produto e eles venham a se esgotar.</p>
+                       <b>3. Das obrigações do usuário</b>
+                       <p>3.1 O usuário deverá informar os dados de forma completa e correta no momento de cadastro em nossa plataforma.</p>
+                       <p>3.2 É responsabilidade do cliente qualquer erro na escrita ou na transmissão errônea dos dados.
+                       </p>
+                       <p>3.3 Não informar os seus dados de login a terceiros sob pena de ser responsabilizado por qualquer conduta advinda desse uso.
+                       </p>
+                       <p>3.4 Usar a plataforma respeitando a ética, bons costumes, legislações e ordenamentos vigentes no país, sob pena de sofrer sanções.
+                       </p>
+                       <p>3.5 Ser maior de idade (18 anos) e ter capacidade plena para realizar o cadastro e efetuar compras em nossa plataforma.
+                       </p>
+                       <b>4. Da Propriedade intelectual
+                       </b>
+                       <p>4.1 Todo o design e paginação são de propriedade do nosso website.
+                       </p>
+                       <p>4.2 Toda imagem, ilustração, obras de arte, HTML, nomes comerciais, softwares são de nossa propriedade.
+                       </p>
+                       <p>4.4 As imagens dos produtos são meramente ilustrativas, pois dependendo do monitor ou da tela do aparelho eletrônico o mesmo pode apresentar variação de cores ou tons.</p>
+                       <p>4.5 A logo, a marca e toda a aparência são de nossa propriedade.
+                       </p>
+                       <p>4.6 É vedado compartilhar, copiar, plagiar ou disponibilizar qualquer conteúdo, foto ou código encontrado em nosso site sem consentimento expresso.
+                       </p>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Eu aceito</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        </div>
+
+
+
+        <!--Rodapé-->
+
+    
+    
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.header {
+    background-color: white;
+}
+
+.logo {
+    width: 130px;
+}
+
+.administracao {
+    margin-top: 20px;
+}
+
+.iconSair {
+    margin-left: 100px;
+}
+
+.textUsuario {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    height: 30%;
+    padding: 10px;
+}
+
+.botoesRelatórios {
+    margin-top: 10px;
+
+}
+
+#relatorioProduto, #relatorioAcesso {
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.carousel-inner {
+    margin-top: 50px;
+    height: 420px;
+    width: 100%;
+}
+@media screen and (max-width:775px){
+    #relatorioProduto, #relatorioAcesso{
+        width: 90%;
+    } 
+}
+

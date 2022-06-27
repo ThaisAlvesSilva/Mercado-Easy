@@ -1,0 +1,88 @@
+#sobrenos, #contatos{
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: rgb( 220, 53, 70);
+    padding-right: 20px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+#logosredessocias{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+
+#pessoaFisica, #gerente, #representante{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.modal-title{
+    font-size:30px;
+}
+.efeitos:hover{
+    transition: 0.5s;
+    transform: scale(1.05, 1.05);
+    box-shadow: 10px 20px 20px rgb(27, 0, 0);
+}
+.efeitosCont{
+    transition-duration: 1s;
+}
+
+#logosredessociasemail{
+    margin-left: 25px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 768px){
+.efeitos:hover, .efeitosCont{
+  transition:none;
+  transform:none;
+  box-shadow:none;
+  transition-duration: 0s;
+}
+}
+
+@media screen and (max-width: 768px){
+    #sobrenossection, #contatossection{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    #navbarsecoes{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px){
+#logosredessociasemail{
+margin-left: 3px;
+margin-right: 5px;
+}
+}
+#logorodape{
+    float: right;
+}
+
+
+
+@media screen and (max-width: 768px){
+    #logonavbar{
+        width: 50%;
+        margin-left: 140px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #sobrenos, #contatos{
+        border-radius: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        
+    }
+    
+}

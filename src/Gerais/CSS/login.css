@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background-image: url("../Imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px;
+    background: none;
+    color: white;   
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    height: 40px;
+    width: 260px;
+    border-radius: 5px;
+    background-color: white;
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#loginSubmit {
+    cursor: pointer;
+}

@@ -1,0 +1,333 @@
+header{
+    background-color: #dc3545;
+    height: 125px;
+ }
+
+ svg{
+     color: white;
+ }
+ h1{
+     color: #dc3545;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+ }
+ 
+ #imgProduto{
+    width: 250px;
+    height: 250px;
+    margin: 15px 5px 0px 0px;
+    border: solid 0.8px #DC3545;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+ }
+
+ .divInfos{
+    background-color: #DC3545;
+    width: 250px;
+    height:250px;
+}
+ @media screen and (max-width:500px){
+    #imgProduto{
+        width: 150px;
+        height: 150px;
+    }
+ }
+
+ p{
+    color:white;
+    margin-left: 2px;
+    font-size:20px
+ }
+
+ .container{
+    margin-top: 20px;
+ }
+ #btclear{
+     margin-left: 1100px;
+     height: 39px;
+ }
+ #btdelete{
+    height: 40px;
+    margin-top: -90px;
+    font-weight: bold;
+    margin-left: 60px;
+    font-size:5px;
+ }
+img{
+     border: solid 0.5px black;
+}
+#popup{
+    width: 200px;
+    height: 40px;
+    margin: 5px 0px 55px 0px;
+}
+#popup p{
+    margin-top: -1px;
+}
+#inf button{
+    width: 414px;
+    height: 114px;
+    margin-top: -15px;
+    margin-left: 1px;
+    font-size: 17px;
+}
+#inf button h5{
+    margin-bottom: -23px;
+    margin-top: -7px;
+}
+.modal-content{
+    height: 175px;
+}
+.modal-content .close svg{
+    margin-top: -4px;
+    margin-left: 463px;
+    color: black;
+}
+footer{
+    margin-top: 15px;
+}
+
+#txt{
+    height: 23px;
+    width: 178px;
+    margin-left: -200px;
+}
+.close{
+    border: none;
+    padding-top: 1px;
+}
+.logo{
+    width: 125px;
+    height: 125px;
+    border: none;
+}
+/* col- */
+@media screen and (max-width: 575px){
+    header{
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    #imgProduto{
+        width: 100%;
+        height: 300px;
+    }
+
+    .divInfos{
+        width: 100%;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+       margin-bottom: -1px;
+       font-size: 36px;
+    }
+    h4{
+        font-size: 19px;
+    }
+    img{
+        width: 125px;
+        height: 125px;
+        margin-left: 8px;
+    }
+    #txt{
+        margin-left: -22.6px;
+    }
+    #popup{
+        width: 199px;
+        height: 25px;
+        margin: 0px 0px 15px -3px;
+    }
+    #popup p{
+        margin-top: -9px;
+    }
+    #btdelete{
+        margin-top: 20px;
+        margin-left: 150px;
+        height: 26px;
+    }
+    #btdelete p{
+        margin-top: -6px;
+    }
+    #btclear{
+        margin-left: 240px;
+        height: 25px;
+        margin-top: 12px;
+        margin-bottom: 17px;
+    }
+    #btclear p{
+        margin-top: -7px;
+    }
+    .row{
+        margin-top: -19px;
+    }
+    .modal-content #inf button{
+        font-size: 16px;
+    }
+    .modal-content{
+        margin-left: 3px;
+    }
+    #inf{
+        margin-top: 3px;
+    }
+}
+/* col-sm- */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    header{
+        margin-bottom: 5px;
+    }
+    #txt{
+        margin-left: 165px;
+        margin-top: -280px;
+    }
+    img{
+        margin-left: -25px;
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-bottom: -19px;
+    }
+    h1{
+        font-size: 37px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    
+    #btclear{
+        margin-left: 460px;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+}
+/* col-md- */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header{
+        height: 160px;
+        margin-bottom: 5px;
+    }
+    .logo{
+        width: 160px;
+        height: 160px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    h4{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    #txt{
+        margin-left: 195px;
+        margin-top: -280px;
+    }
+    img{
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-bottom: -19px;
+    }
+    #popup{
+        height: 50px;
+    }
+    #popup p{
+        margin-top: 4px;
+    }
+    .modal-content{
+        width: 600px;
+        height: 200px;
+    }
+    .modal-content #inf button, .modal-content #inf button h5{
+        font-size: 24px;
+    }
+    #inf button{
+        width: 435px;
+        height: 140px;
+    }
+    #btdelete{
+        margin-top: -100px;
+        height: 50px;
+    }
+    #btdelete p{
+        font-size: 26px;
+        margin-top: -3px;
+    }
+    #btclear{
+        margin-left: 540px;
+        height: 50px;
+    }
+    #btclear p{
+        font-size: 32px;
+        margin-top: -8px;
+    }
+    #inf button, #inf button h5{
+        font-size: 21px;
+    }
+    #inf button h5{
+        margin-bottom: -36px;
+        margin-top: -9px;
+    }
+}
+/* col-lg- */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    header{
+        height: 150px;
+        margin-bottom: 5px;
+        
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 52px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 22px;
+    }
+    img{
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    #txt{
+        margin-left: 295px;
+        margin-top: -280px;
+    }
+    #inf button{
+        font-size: 19px;
+        height: 120px;
+    }
+    .row{
+        margin-top: -20px;
+    }
+    #btclear{
+        width: 130px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-left: 720px;
+    }
+    #btclear p{
+        font-size: 20px;
+    }
+    #btdelete, #popup{
+        height: 50px;
+    }
+    #btdelete p{
+        font-size: 22px;
+    }
+    #popup p{
+        margin-top: 4px;
+    }
+
+    .divInfos{
+       height: 270px;
+    }
+    
+}

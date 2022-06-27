@@ -1,0 +1,28 @@
+.botaoSalvar{
+    border-radius:8px;
+    margin-top: 40px;
+    margin-right: 350px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.botoes{
+    width: 50%;
+    margin-top: 10px;
+    height: 40px;
+    font-size:18px;
+}
+
+.form-control::placeholder{
+    color:black;
+}
+
+@media screen and (max-width:485px){
+    .header{
+        width: 500px;
+    } 
+    .texto{
+        margin-top:10px;
+    }
+}
+

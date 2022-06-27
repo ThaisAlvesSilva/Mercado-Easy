@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/EditarProdutos.css">
+    <title>Editar produtos </title>
+</head>
+
+<body class="bg-light">
+    <header class="header bg-danger">
+        <nav class="navbar navbar-expand-lg">
+            <div class="col-12 col-sm-2 col-xs-12 col-md-2 col-lg-1">
+                <a href="../../Gerais/HTML/Home.html">
+                    <img src="../Imagens/LogoFundoVermelho.jpg" class="logo">
+                </a>
+            </div>
+
+            <div class="col-12 col-sm-9 col-xs-12 col-md-10 col-lg-10">
+                <div class="navbar-nav justify-content-center">
+                    <h1 class="font-weight-bold">Editar produtos</h1>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container editarPordutos">
+            <form id="editarPordutos" method="post" action="https://postman-echo.com/post">
+                <div class="camposProduto ">
+                    <div class="row justify-content-center">
+                        <div class=" teste col-sm-12 col-xs-12 col-md-12 col-lg-8">
+                            <label id="nome" class="form-control bg-secondary">Nome do produto</label>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-8">
+                            <label id="tipo" class="form-control bg-secondary">Tipo do produto</label>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-8">
+        
+                            <label id="marca" class="form-control bg-secondary">Marca</label>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-8 ">
+                            <input id="quantidade" type="number" class="form-control bg-warning" placeholder="Quantidade do produto"
+                                aria-label="Username" aria-describedby="basic-addon1" pattern="[0-9]+([,\.][0-9]+)?" step="any"
+                                name="null">
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-8 ">
+                            <input  id="preco" type="text" class="form-control bg-warning" placeholder="Preço do produto"
+                                aria-label="Username" aria-describedby="basic-addon1"pattern="[0-9]+([,\.][0-9]+)?" step="any" pattern="[0-9]+([,\.][0-9]+)?" step="any"
+                                name="null">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-10" style="text-align: right;">
+                    <button type="submit" class="btn btn-danger botaoSalvar">Salvar</button>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+    <script src="../JavaScript/editarProdutos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-
+    J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-
+    Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-
+    wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

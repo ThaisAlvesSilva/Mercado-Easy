@@ -1,0 +1,55 @@
+.logo{
+  width: 100px;
+}
+
+.graficos{
+  font-size: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#acessosEstabelecimento{
+  color:green;
+  font-size: 40px;
+  text-align: center;
+}
+
+.acessosProdutos{
+  color:blue;
+  font-size:35px;
+  margin-top:50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+
+p{
+  font-size:25px;
+}
+
+@media screen and (max-width:485px){
+  .header{
+      width:700px;
+  } 
+  
+  .container{
+    width:90%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:3000px;
+    height: 100%;
+  }
+  
+  canvas{
+    width: 100%px;
+    height:1000px;
+    transform:scale(0.7);
+  }
+
+  #acessosEstabelecimento{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+  }
+
+}

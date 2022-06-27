@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Perfil.css">
+    <script src="../JavaScript/Perfil.js"></script>
+    <title>Perfil Usuário </title>
+</head>
+
+<body class="bg-danger">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="col-12">
+                <div class="navbar-nav justify-content-center">
+                    <h1 class="font-weight-bold textoPerfil">Perfil</h1>
+                </div>
+        </nav>
+    </header>
+    <main class=" main">
+        <section class=" container perfil">
+            <div class="row align">
+                <div class="col-12 col-xs-3 col-sm-3 col-md-3 col-lg-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                </div>
+                <div class="col-10 col-xs-3 col-sm-8 col-md-7 col-lg-7">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 divTextoNome">
+                        <label id="nome" class = "labelNome">Nome do Usuário</label>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-12 divBotao">
+                        <h4 class="">E-mail</h4>
+                        <label id="email" for="labelEmail" class="botoesUsuário">E-mail do usuário</label>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-12 divBotoes">
+                        <h4 class="">Telefone</h4>
+                        <label id="telefone" for="labelTelefone" class="botoesUsuário">Telefone do usuário</label>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-12 divBotoes">
+                        <h4 class="">Endereço</h4>
+                        <label id="endereco" for="labelEmail" class="botoesUsuário">Endereço do usuário</label>
+                    </div>
+                </div>
+                
+                <div class="col-2 col-xs-12 col-sm-1 col-xs-2 col-md-2 col-lg-3">
+                    <a data-toggle="modal" data-target="#modal-sair">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" fill="currentColor"
+                        class="bi bi-box-arrow-in-right iconSair" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd " fill="black"
+                                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                            <path fill-rule="evenodd" fill="black"
+                                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        
+            <a href="../../Gerais/HTML/EditarInformacoes.html">
+                <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12" style="text-align: right;">
+                    <button type="button" class="btn btn-warning botaoEditar">Editar informações</button>
+                </div>
+            </a>
+            
+        </section>
+    </main>
+    <div class="modal fade" id="modal-sair" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tem certeza que deseja sair?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                    <button onclick="logOut()" type="button" class="btn btn-primary" id="btn-sair">Sim</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-
+    J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-
+    Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-
+    wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* HEADER*/ 
+
+.row-cabeçalho{
+    background-color: rgb( 220,53, 70);
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row-cabeçalho img{
+    width: 80px;
+   padding: 5px;
+}
+
+.título h1 {
+    text-align: center;
+}
+
+.form-control{
+    font-size: 14px;
+}

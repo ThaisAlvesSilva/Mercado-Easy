@@ -1,0 +1,389 @@
+header{
+    background-color: #DC3545;
+    height: 125px;
+}
+#logo{
+    width: 125px;
+    height: 125px;
+    margin-left: -125px;
+}
+
+
+#divBusca{
+    margin-top: 50px;
+}
+#divBusca input{
+    width: 750px;
+    margin-left: -50px;
+}
+#user, #cart{
+    margin-top: -90px;
+}
+#user{
+    margin-left: 1125px;
+}
+#cart{
+    margin-left: 1045px;
+}
+.promocoes h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #DC3545;
+    margin-bottom: 8px;
+}
+svg{
+    color: white;
+}
+.promocoes img{
+    width: 250px;
+    height: 250px;
+    margin: 15px 5px 0px 0px;
+    border: solid 0.8px #DC3545;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.promocoes p{
+    font-size: 17px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    height: 126px;
+}
+.container{
+    margin-left: 110px;
+}
+h5{
+    color: white;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 2px
+}
+#dropdownMenuButton{
+    background-color: #DC3545;
+    border: solid 0.1px #DC3545;
+    border-radius: 12px;
+    margin-left: 1116.5px;
+}
+.promocoes svg{
+    margin-left: 208px;
+    margin-top: -45px;
+}
+#txt{
+    height: 23px;
+    width: 178px;
+    margin-left: -7.5px;
+}
+#inf{
+    margin-top: 80px;
+    margin-right: 25.3px;
+}
+.divInfos{
+    background-color: #DC3545;
+    width: 250px;
+    height:230px;
+}
+.divInfos button{
+    margin-top: -90px;
+    margin-left: 26.7px;
+    font-size: 17px;
+}
+.modal-content{
+    height: 175px;
+}
+.row{
+    margin-bottom: 7px;
+}
+.modal-content .close svg{
+    margin-top: 95px;
+    margin-right: -230px;
+    color: black;
+}
+#inf h5{
+    margin-left: 65px;
+    margin-top: -7px;
+    margin-bottom: -23px;
+}
+#buttontxt{
+    margin-top: -30px;  
+}
+#cartplus{
+    margin-top: 2px;
+}
+
+/* col- */
+@media screen and (max-width: 575px){
+    #logo{
+        width: 89.2857142857px;
+        height: 89.2857142857px;
+        margin-bottom: 5px;
+    }
+    .promocoes .container{
+        margin-left: 33px;
+    }
+    #divBusca{
+        margin-top: -9px;
+        margin-left: -55px;
+    }
+    #divBusca input{
+        width: 280px;
+    }
+    #dropdownMenuButton{
+        margin-left: 182px;
+        margin-bottom: -5px;
+        margin-top: 9px;
+    }
+    .divInfos{
+        margin-bottom: 15px;
+    }
+    .divInfos p{
+        font-size: 18px;
+        margin-top: -15px;
+    }
+    #user{
+        margin-left: -60px;
+    }
+    #cart{
+        margin-left: 75px;
+    }
+    #cart svg, #user svg{
+        width: 90px;
+        height: 40px;
+    }
+    #txt{
+        margin-top: -2px;
+    }
+    #cartplus{
+        margin-top: -15px;
+    }
+    .modal-content{
+        width: 343px;
+        height: 164px;
+        margin-left: 0.5px;
+        margin-top: -155px;
+    }
+    .close svg{
+        margin-left: 54px;
+    }
+    #inf{
+        width: 340px;
+        margin-left: -28px;
+        margin-top: 81px;
+    }
+    #inf button{
+        font-size: 16px;
+        margin-top: -90px;
+    }
+    #buttontxt{
+        margin-top: -70px;
+    }
+    .modal-content #inf h5{
+        margin-left: 20px;
+        margin-bottom: -20px;
+    }
+}
+/* col-sm- */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    header{
+        height: 170px;
+    }
+    #logo{
+        margin-left: 140px;
+    }
+    #user{
+        margin-left: 390px;
+        margin-top: -50px;
+    }
+    #cart{
+        margin-left: 325px;
+        margin-top: -45px;
+    }
+    #divBusca{
+        margin-top: 0px;
+        margin-left: -30px;
+    }
+    #divBusca input{
+        width: 360px;
+    }
+    h1{
+        margin-left: 20px;
+    }
+    .modal-content #inf h5{
+        margin-left: 53px;
+    }
+    .modal-content{
+        margin-right: 32px;
+    }
+    .promocoes .container{
+        margin-left: 44px;
+    }
+    #dropdownMenuButton{
+        margin-left: 465px;
+    }
+    .close svg{
+        margin-left: 180px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+}
+/* col-md- */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    ::-webkit-input-placeholder{
+         font-size: 19px; 
+    }
+    .promocoes .container{
+        margin-left: 69px;
+        margin-top: -25px;
+    }
+    #inf h5{
+        font-size: 33px;
+        margin-bottom: -40px;
+        margin-left: 120px;
+    }
+    .row{
+        margin-bottom: 26px;
+    }
+    .divInfos{
+        margin-bottom: 12px;
+    }
+    .divInfos p{
+        font-size: 22px;
+        margin-top: -15px;
+    }
+    .divInfos button{
+        margin-top: -77px;
+        margin-left: 9px;
+    }
+    #buttontxt{
+        margin-top: -5px;
+    }
+    #txt{
+        margin-top: 0px;
+    }
+    #cartplus{
+        margin-top: 7px;
+        margin-left: -2px;
+        width: 39px;
+        height: 39px;
+    }
+    .promocoes svg{
+        margin-top: -5px;
+        margin-left: 1px;
+    }
+    #divBusca{
+        margin-top: -53px;
+    }
+    #divBusca input{
+        width: 420px;
+        height: 35px;
+        margin-left: 30px;
+    }
+    #user{
+        margin-left: 550px;
+        margin-top: -65px;
+    }
+    #cart{
+        margin-left: 485px;
+        padding-top: 24px;
+    }
+    #dropdownMenuButton{
+        margin-left: 560px;
+        margin-bottom: 23px;
+        width: 130px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .dropdown-item{
+        font-size: 23px;
+    }
+    .modal-content{
+        margin-left: -113px;
+        margin-top: -100px;
+        width: 600px;
+        height: 200px;
+    }
+    #inf{
+        margin-left: 14px;
+        margin-top: 35px;
+    }
+    #inf button{
+        font-size: 27px;
+    }
+    .close svg{
+        margin-left: 317px;
+    }
+    h1{
+        font-size: 45px;
+    }
+}
+/* col-lg- */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    h5{
+        font-size: 23px;
+    }
+    .divInfos p{
+        font-size: 17px;
+    }
+    h1{
+        margin-top: 5px;
+        font-size: 43px;
+    }
+    #divBusca input{
+        width: 600px;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+    .divInfos{
+        margin-left: -57px;
+        margin-bottom: 5px;
+    }
+    .container img{
+        margin-left: -57px;
+    }
+    #user{
+        margin-left: 370px;
+        margin-top: -75px;
+    }
+    #cart{
+        margin-left: 700px;
+        margin-right: -375px;
+        margin-top: -75px;
+    }
+    .modal-content{
+        margin-left: -15px;
+    }
+    .row{
+        margin-top: -6px;
+    }
+    #azeite{
+        margin-left: 320px;
+        margin-top: -953px;
+    }
+    #iogurte{
+        margin-left: 640px;
+        margin-top: -1428px;
+    }
+    #dropdownMenuButton{
+        margin-left: 824px;
+        height: 50px;
+        width: 130px;
+    }
+    .dropdown button, .dropdown a{
+        font-size: 20px;
+    }
+    .promocoes svg{
+        margin-bottom: 2px;
+    }
+    #inf{
+        margin-right: 25px;
+    }
+    .modal-content{
+        height: 179.5px;  
+    }
+    .close svg{
+        margin-left: 197px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+}
