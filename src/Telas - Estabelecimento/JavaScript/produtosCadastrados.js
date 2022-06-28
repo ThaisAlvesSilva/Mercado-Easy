@@ -28,7 +28,7 @@ function getProdutos(divProdutos) {
         .then(produtos => {
             produtos.map((produto) =>{
                 listaProdutos +=  `<div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                    <img id="imgProduto" src="../Imagens/${produto.tipo}.jpg" alt="">
+                    <img src="../Imagens/${produto.tipo}.jpg" alt="">
                     <div class="divInfos">
                         <div>
                             <br>
