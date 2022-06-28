@@ -11,7 +11,7 @@ svg{
 }
 
 .promocoes img{
-    width: 250px;
+    width: 100%;
     height: 250px;
     margin: 15px 5px 0px 0px;
     border: solid 0.8px #DC3545;
@@ -41,7 +41,7 @@ svg{
 }
 .divInfos{
     background-color: #DC3545;
-    width: 250px;
+    width: 100%;
     height:205px;
 }
 .divInfos button{
@@ -79,6 +79,7 @@ svg{
 
 .botoes{
     margin-top:40px;
+    margin-bottom:40px;
 }
 
 #Editar{
@@ -86,17 +87,20 @@ svg{
 }
 
 
-@media screen and (max-width:500px){
-    .header{
+@media screen and (max-width:576px){
+     .header{
         width:1000px;
     }
 
-    .produto{
+    /*  .produto{
         padding-left: 150px
     }
     .texto{
         width:800px;
-    }
+    }  */
 
-
-}
+    /* .prodoutos{
+        background-color: blue;
+        width:100%;  
+    } */ 
+} 

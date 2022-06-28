@@ -12,6 +12,17 @@
     margin-left: 25px;
 }
 
+#login{
+    background-color: rgb( 220, 53, 70);
+    border: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 25px; 
+    padding: auto; 
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
 
 #pessoaFisica, #gerente, #representante{
     margin-top: 20px;
@@ -65,7 +76,12 @@ margin-right: 5px;
     float: right;
 }
 
-
+@media screen and (max-width: 575px){
+    #login{
+       margin-left: 150px;
+       margin-top: -1px;
+    }   
+}
 
 @media screen and (max-width: 768px){
     #logonavbar{

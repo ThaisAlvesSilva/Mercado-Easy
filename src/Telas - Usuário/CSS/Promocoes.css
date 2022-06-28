@@ -111,6 +111,7 @@ h5{
 
 /* col- */
 @media screen and (max-width: 575px){
+   
     #logo{
         width: 89.2857142857px;
         height: 89.2857142857px;
@@ -133,6 +134,9 @@ h5{
     }
     .divInfos{
         margin-bottom: 15px;
+        background-color: #DC3545;
+        width: 250px;
+        height:250px;
     }
     .divInfos p{
         font-size: 18px;
@@ -173,7 +177,7 @@ h5{
         margin-top: -90px;
     }
     #buttontxt{
-        margin-top: -70px;
+        margin-top: -10px;
     }
     .modal-content #inf h5{
         margin-left: 20px;
