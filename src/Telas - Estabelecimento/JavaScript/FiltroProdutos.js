@@ -26,8 +26,8 @@ function enviar(){
         data.map(produto=>{
             console.log(produto);
         msg =   `<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-        <img src="../Imagens/${produto.tipo}.jpg" alt="">
-        <div class="divInfos">
+        <img id="imgProduto" src="../Imagens/${produto.tipo}.jpg" alt="">
+        <div class="divInfosFiltro">
             <div>
                 <br>
                 <p style="font-size:20px;"><strong>PRODUTO: </strong>${produto.nome.charAt(0).toUpperCase()}${produto.nome.slice(1)}  ${produto.marca}<br>`
