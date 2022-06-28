@@ -30,7 +30,7 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Foram criadas branches features que serão utilizadas para desenvolver cada funcionalidade do software. Ademais, foi criada a branch `dev` que será utilizada para junção, organização e testes das alterações presentes nas features, após essa junção será realizado o merge com a release e em seguida com a  branch `main` que terá as alterações finais. Serão criadas também tags que definirão versões da aplicação.  
 
 
 ## Gerenciamento de Projeto

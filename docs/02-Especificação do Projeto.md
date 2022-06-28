@@ -1,8 +1,6 @@
 # Especificações do Projeto
 
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
+O Mercado Easy é uma plataforma digital que tem como principal objetivo facilitar para os seus usuários a busca pelos menores preços de produtos em supermercados no momento de realizar suas compras, evitando que esse não tenha que se deslocar até vários estabelecimentos para encontrar aquele que possui os menores preços dos produtos que procura. A plataforma será desenvolvida utilizando a linguagem de marcação HTML, juntamente com o framework Boostrap que irá auxiliar no desenvolvimento dos componentes presentes no site e com o CSS que será utilizado para adicionar estilo na página. Para o desenvolvimento da parte dinâmica do site será utilizada a linguagem JavaScript. As informações dos usuários serão armazenadas utilizando a API de dados rest Json Server.  
 
 ## Personas
 
@@ -33,7 +31,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os quadros que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
@@ -42,33 +40,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o representante do estabelecimento cadastre os preços dos produtos | ALTA | 
 |RF-002| Permitir que o usuário tenha acesso aos preços dos produtos e seus respectivos estabelecimentos  | ALTA |
 |RF-003| Permitir que o representante do estabelecimento movimente o estoque dos produtos  | ALTA |
-|RF-004| Emitir um relatório de acessos para cada estabaelcimento | ALTA |
-|RF-005| Permitir que o usuário tenha acesso aos produtos em promoção | MÉDIA |
-|RF-006| Permitir que o usuário adicione produtos ao seu carrinho | BAIXA |
+|RF-004| Emitir um relatório de acessos para cada estabelecimento | ALTA |
+|RF-005| Permitir que representante do estabelecimento adicione promoções aos produtos | MÉDIA |
+|RF-006| Permitir que o usuário tenha acesso aos produtos em promoção | MÉDIA |
+|RF-007| Permitir que o usuário adicione produtos ao seu carrinho | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Auntentificação do usuário | ALTA | 
-|RNF-002| Registrar ações do usuário |  ALTA |
-|RNF-003| Modo escuro no site/aplicativo | BAIXA
+|RNF-001| Garantir integridade e confidencialidade entre o gerente e o representante do supermercado| BAIXA |
+|RNF-002| Auntentificação do usuário | ALTA | 
+|RNF-003| Registrar ações do usuário |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 

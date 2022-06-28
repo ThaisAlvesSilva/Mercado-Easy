@@ -1,31 +1,18 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/UserFlow.png)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+## Diagrama de Casos e Uso
+
+![Exemplo de diagrama](img/Diagrama_CasosDeUso.png)
 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
-
----
 
 ## PÁGINA INICIAL
 
@@ -35,9 +22,46 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ![Pagina Inicial](img/Wireframes/cadastra_como.png)
 
+## CADASTRO PESSOA FISICA 
+![Cadastro Pessoa](https://user-images.githubusercontent.com/102254394/166123352-51ba55f0-1eaf-48ce-8334-e3889bab48df.png)
+
+## CADASTRO GERENTE
+![Cadastro Gerente](https://user-images.githubusercontent.com/102254394/166123388-6a12faf9-3a75-462c-94f7-7dfe3851072b.png)
+
+## CADASTRO REPRESENTANTE DE SUPERMERCADO
+![Cadastro Representante do Supermercado](https://user-images.githubusercontent.com/102254394/166123484-7816cbe8-a6bc-44d6-843c-975828cd18f2.png)
+
+## LOGIN
+ 
+![Pagina Inicial](img/Wireframes/Login.png)
+
+## EDITAR INFORMAÇÕES
+
+![Editar Informações](img/Wireframes/EditarInformacoes.jpeg)
+
+
 ## ADMINISTRAÇÃO
 
 ![Pagina Inicial](img/Wireframes/Administração.png)
+
+## PERFIL GERENTE
+
+![Pagina Inicial](img/Wireframes/Perfil_Gerente.png)
+
+## RELATÓRIOS
+
+![Pagina Inicial](img/Wireframes/Relatorios.jpeg)
+
+## PERFIL ESTABELECIMENTO
+
+![Pagina Inicial](img/Wireframes/Perfil_Estabelecimento.png)
+
+## Produtos Cadastrados
+![Pagina Inicial](img/Wireframes/Produtos_Cadastrados.PNG)
+
+## POP-UP PROMOÇÃO
+
+![Pagina Inicial](img/Wireframes/Popup_Produtos_Cadastrados.PNG)
 
 ## CADASTRO DE PRODUTOS
 ![Pagina Inicial](img/Wireframes/CadastroProdutosMercadoEasy.png)
@@ -45,13 +69,24 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 ## EDITAR PRODUTOS
 ![Pagina Inicial](img/Wireframes/EditarProdutos.png)
 
+## PERFIL PESSOA FÍSICA
+
+![Pagina Inicial](img/Wireframes/Perfil_UsuárioComum.png)
+
+## PESQUISAR PRODUTOS
+![Pagina Inicial](img/Wireframes/PesquisaDeProdutos.png)
 
 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+## CARRINHO
+
+![Pagina Inicial](img/Wireframes/Tela_Carrinho.PNG)
+
+## POP-UP INFORMAÇÕES DO ESTABELECIMENTO
+
+![Pagina Inicial](img/Wireframes/InfCarrinho.png)
+
+## PROMOÇÕES
+
+![Pagina Inicial](img/Wireframes/Tela_Promocoes.PNG)
+
+
