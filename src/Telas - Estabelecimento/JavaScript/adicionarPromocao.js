@@ -13,6 +13,8 @@ function salvaPromocao(){
     var novoPreco;
     if(preco.includes(",")){
         novoPreco = preco.replace(",", ".");
+    }else{
+        novoPreco = preco;
     }
     novoPreco = parseFloat(novoPreco);
     var precoProd = parseFloat(produtoPromo.preco);
