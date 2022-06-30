@@ -9,7 +9,12 @@ function adicionaPromocao(produto){
 }
 
 function salvaPromocao(){
-    var novoPreco = parseFloat(document.getElementById("novoPreco").value);
+    var preco = document.getElementById("novoPreco").value;
+    var novoPreco;
+    if(preco.includes(",")){
+        novoPreco = preco.replace(",", ".");
+    }
+    novoPreco = parseFloat(novoPreco);
     var precoProd = parseFloat(produtoPromo.preco);
     var novoPrecoProd = parseFloat(produtoPromo.novoPreco);
     if(novoPreco != ''){
