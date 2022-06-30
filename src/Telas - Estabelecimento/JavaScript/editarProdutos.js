@@ -28,8 +28,40 @@ function adicionaDadosNaTela(){
     
 }
 
-function updateProduto(novoPreco, novaQuantidade) {
-    if(produto.promocao){
+function updateProduto(preco, novaQuantidade) {
+
+    //var preco = document.getElementById("novoPreco").value;
+    var novoPreco;
+    if(preco.includes(",")){
+        novoPreco = preco.replace(",", ".");
+    }else{
+        novoPreco = preco;
+    }
+    novoPreco = parseFloat(novoPreco);
+    var precoProd = parseFloat(produto.preco);
+    var novoPrecoProd = parseFloat(produto.novoPreco);
+    if(novoPreco != ''){
+        if(produto.promocao){
+            if(novoPreco > novoPrecoProd  && novoPreco <= precoProd){
+                produto.novoPreco = novoPreco;
+            }else{
+                if(novoPreco >= precoProd){
+                    produto.preco = novoPreco;  
+                    produto.promocao = false;
+                }else if(novoPreco < novoPrecoProd){
+                    produto.novoPreco = novoPreco;
+                }
+            }
+            if(precoProd == novoPreco){
+                produto.promocao = false;
+            }
+        }else{
+            produto.preco = novoPreco;
+        }
+        
+    } 
+
+    /* if(produto.promocao){
         if(novoPreco > produto.novoPreco && novoPreco < produto.preco){
             produto.novoPreco = novoPreco;
         }else if(novoPreco > produto.preco){
@@ -38,7 +70,7 @@ function updateProduto(novoPreco, novaQuantidade) {
         }else if(novoPreco < produto.novoPreco){
             produto.preco = produto.novoPreco;
             produto.novoPreco = novoPreco;
-        }
+        } */
         /* if(novoPreco > produto.novoPreco){
             produto.promocao = false;
             produto.preco = novoPreco;
@@ -46,9 +78,9 @@ function updateProduto(novoPreco, novaQuantidade) {
             produto.preco = produto.novoPreco;
             produto.novoPreco = novoPreco;
         } */
-    }else{
+    /* }else{
         produto.preco = novoPreco;
-    }
+    } */
    
     produto.quantidade = novaQuantidade;
 
