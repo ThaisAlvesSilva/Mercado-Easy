@@ -26,6 +26,10 @@
 p{
   font-size:25px;
 }
+#sobre{
+  text-align:right;
+  margin-top: 20px;
+}
 
 @media screen and (max-width:485px){
   .header{
