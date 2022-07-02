@@ -50,8 +50,6 @@ function getLocation(){
         locationPerfil = '/src/Telas - Usuário/Html/Perfil.html';
     }else if(dados.tipoUsuario == "estabelecimentos"){
         locationPerfil = '/src/Telas - Estabelecimento/Html/PerfilEstabelecimento.html';
-
-        
     }
 }
 
