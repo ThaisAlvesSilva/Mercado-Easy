@@ -47,9 +47,9 @@ window.onload = () => {
 
 function getLocation(){
     if(dados.tipoUsuario == "pessoaFisica"){
-        locationPerfil = '../../Telas - Usuário/Html/Perfil.html';
+        locationPerfil = '/src/Telas - Usuário/Html/Perfil.html';
     }else if(dados.tipoUsuario == "estabelecimentos"){
-        locationPerfil = '../../Telas - Estabelecimento/HTML/PerfilEstabelecimento.html';
+        locationPerfil = '/src/Telas - Estabelecimento/Html/PerfilEstabelecimento.html';
     }
 }
 

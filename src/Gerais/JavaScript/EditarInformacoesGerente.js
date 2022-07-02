@@ -67,7 +67,7 @@ function updateInformacoes(email, telefone, senha, rua, bairro, cidade, numero,u
     .then(res => res.json())
     .then(() => {
         location.reload();
-        window.location.href =  '../../Telas - Gerente/Html/PerfilGerente.html';
+        window.location.href =  '/src/Telas - Gerente/Html/PerfilGerente.html';
     })
     .catch(() => console.log ("Falha ao atualizar dados!"));  
 }
