@@ -32,7 +32,7 @@ function atualizarCarrinho (carrinhoCompras){
                     produtosCarrinho += `
                     <div>
                         <button id="popup" onclick = 'informacoesEstabelecimento(${item.idEstabelecimento});' type="button" class="btn btn-danger" data-toggle="modal" data-target='#${item.idEstabelecimento}'>
-                            <p style="color: white; font-weight: bold; font-size: large; margin-right:-20px;">Ver estabelecimento</p>
+                            <p style="color: white; font-weight: bold; font-size: large; margin-right:-60px;">Ver estabelecimento</p>
                         </button>  
                             
                         <div class="modal fade" id='${item.idEstabelecimento}' tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
