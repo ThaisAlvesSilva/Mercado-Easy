@@ -36,10 +36,10 @@ window.onload = () => {
                 verificaDadosEstabelecimento(email, telefone, senha, rua, bairro, cidade, numero, uf, confirmarEmail);
                 //updateInformacoes(email, telefone, senha, rua, bairro, cidade, numero, uf);
             }else{
-                alert("E-mails diferentes");
+                alert("E-mails diferentes.");
             }
         }else{
-            alert("Senhas diferentes");
+            alert("Senhas diferentes.");
         }
         evento.preventDefault();
     }; 
