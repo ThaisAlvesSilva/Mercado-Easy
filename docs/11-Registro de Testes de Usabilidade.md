@@ -1,8 +1,11 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="7-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></span>, <a href="10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a>
 
-Relatório com evidências dos testes e relatos dos usuários participantes, baseado em um plano de testes pré-definido.
+Segundo relatos dados pelos participantes, a aplicação está intuitiva e eficiente, pois foi possível realizar as tarefas que foram pré-determinadas, como o cadastro dos usuários, o cadastro e edição de produtos, gerar relatórios, entre outras. 
 
-> **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+| PARTICIPANTE      | IDADE | PRÁTICA COM INTERNET      | MODO DE NAVEGAÇÃO | PONTOS PARA MELHORAR |
+|-------------------|-------|---------------------------|-------------------|----------------------|
+| Anna Luiza        | 19    | Ótima                     | Computador        | Adicionar botão de voltar na tela dos produtos no carrinho. | 
+| Eliza Rocha       | 19    | Ótima                     | Celular           | Uma forma mais intuitiva de acessar a Home. |
+| Pablo José        | 19    | Ótima                     | Computador        | Adicionar descrição nos campos de editar informações de usuários e do cadastro de produtos. |
+| Vanderlei         | 62    | Pouca                     | Celular           | Poder editar o nome do produto na hora de ditar |
